@@ -32,6 +32,8 @@ Versioning](https://semver.org/spec/v2.0.0.html).
   the first organization by node path.
 - Fix an issue in Course Search that removed existing filters in some cases
   when using full text search.
+- Prevent search view errors when the search query is 3 or more characters
+  long, but 2 or less when whitespace is trimmed from both ends.
 
 ### Changed
 
